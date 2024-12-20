@@ -1,0 +1,84 @@
+body{
+  padding: 5%;
+}
+.section1{
+  float: right;
+  padding: 3%;
+}
+.icons{
+  display: flex;
+  padding: 5%;
+  margin-right: 5%;
+}
+.notification{
+  margin-left: 30%; 
+}
+.btn-theme{
+  margin-bottom: 20%; 
+}
+.dropdown {
+  display: inline-block;
+  cursor: pointer;
+}
+.dropdown .dropdown-link{
+  border: 0.3px solid rgb(127, 204, 255);
+  padding: 5px 14px;
+  border-radius: 8px;
+  background-color: rgb(127, 204, 255);
+  font-weight: bold;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.8px);
+  -webkit-backdrop-filter: blur(2.8px);
+  border: 1px solid rgba(255, 255, 255, 0.17);
+}
+
+.dropdown-content p {
+  border-bottom: rgb(127, 204, 255) solid 1px;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.dropdown-content p:hover {
+  background-color:rgb(159, 216, 255);
+  border-radius: 8px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+.lcard{
+  text-align: center;
+  border: 1px black solid;
+  width: 350px;
+  height: fit-content;
+  border-radius: 8px;
+  margin-right: 4%;
+
+}
+.dcard{
+  text-align: center;
+  border: 1px rgb(255, 255, 255) solid;
+  width: 350px;
+  height: fit-content;
+  border-radius: 8px;
+  margin: 4%;
+}
+h1{
+  text-align: center;
+}
